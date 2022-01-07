@@ -1,7 +1,6 @@
 {
     "family": "prometheus-grafana-definition",
     "taskRoleArn": "arn:aws:iam::637657790663:role/ecsTaskExecutionRole",
-    "executionRoleArn":"arn:aws:iam::637657790663:role/node-discovery-role",
     "containerDefinitions": [
             {
                 "name": "init-container",
