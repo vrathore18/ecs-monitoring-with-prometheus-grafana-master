@@ -1,0 +1,27 @@
+{
+    "family": "grafana-definition",
+    "taskRoleArn": "arn:aws:iam::637657790663:role/ecsTaskExecutionRole",
+        "containerDefinitions": [
+            {
+                "name": "grafana",
+                "image": "grafana/grafana",
+                "cpu": 512,
+                "memory": 512,
+                "memoryReservation": 128,
+                "portMappings": [
+                    {
+                        "containerPort": 3000,
+                        "hostPort": 3000,
+                        "protocol": "tcp"
+                    }
+                ],
+                "essential": true
+            }
+        ],
+
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "cpu": "512",
+    "memory": "512"
+}
