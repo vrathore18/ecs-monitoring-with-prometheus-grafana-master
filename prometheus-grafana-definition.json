@@ -20,7 +20,7 @@
                 },
                 "command": [
                     "wget",
-                    "https://raw.githubusercontent.com/santosh07bec/ecs-monitoring-with-prometheus-grafana/master/prometheus.yml",
+                    "https://raw.githubusercontent.com/vrathore18/ecs-monitoring-with-prometheus-grafana-master/blob/master/prometheus.yml",
                     "-P",
                     "/mnt"
                 ],
